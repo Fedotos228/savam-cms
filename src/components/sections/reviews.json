@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_sections_reviews",
+  "info": {
+    "displayName": "Reviews",
+    "icon": "star"
+  },
+  "options": {},
+  "attributes": {
+    "SectionHeading": {
+      "type": "component",
+      "component": "shared.section-heading",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

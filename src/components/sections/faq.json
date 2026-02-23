@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_faqs",
+  "info": {
+    "displayName": "Faq"
+  },
+  "options": {},
+  "attributes": {
+    "SectionHeading": {
+      "type": "component",
+      "component": "shared.section-heading",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

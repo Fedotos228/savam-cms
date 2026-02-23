@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_components_buttons",
+  "info": {
+    "displayName": "Buttons"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "variant": {
+      "type": "enumeration",
+      "default": "default",
+      "enum": [
+        "default",
+        "secondary",
+        "link"
+      ]
+    },
+    "size": {
+      "type": "enumeration",
+      "default": "default",
+      "enum": [
+        "default",
+        "full",
+        "icon"
+      ]
+    }
+  },
+  "config": {}
+}

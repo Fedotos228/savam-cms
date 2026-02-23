@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_sections_prices",
+  "info": {
+    "displayName": "Prices"
+  },
+  "options": {},
+  "attributes": {
+    "SectionHeading": {
+      "type": "component",
+      "component": "shared.section-heading",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

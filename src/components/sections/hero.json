@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_sections_heroes",
+  "info": {
+    "displayName": "Hero"
+  },
+  "options": {},
+  "attributes": {
+    "SectionHeading": {
+      "type": "component",
+      "component": "shared.section-heading",
+      "repeatable": false
+    },
+    "phone": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

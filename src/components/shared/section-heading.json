@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_section_headings",
+  "info": {
+    "displayName": "SectionHeading"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

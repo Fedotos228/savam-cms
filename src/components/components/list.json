@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_components_lists",
+  "info": {
+    "displayName": "List",
+    "icon": "folder"
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

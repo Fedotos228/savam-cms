@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_shared_contact_buttons",
+  "info": {
+    "displayName": "ContactButtons"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "Buttons": {
+      "type": "component",
+      "component": "components.buttons",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_before_buttons",
+  "info": {
+    "displayName": "BeforeButtons",
+    "icon": "rocket"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

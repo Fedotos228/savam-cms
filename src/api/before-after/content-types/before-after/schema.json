@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "before_afters",
+  "info": {
+    "singularName": "before-after",
+    "pluralName": "before-afters",
+    "displayName": "BeforeAfter"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "SecondImage": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
