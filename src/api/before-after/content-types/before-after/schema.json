@@ -11,7 +11,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "firstImage": {
+    "beforeImage": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
@@ -19,7 +19,7 @@
         "files"
       ]
     },
-    "SecondImage": {
+    "afterImage": {
       "type": "media",
       "multiple": false,
       "allowedTypes": [
