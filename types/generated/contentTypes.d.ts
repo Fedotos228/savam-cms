@@ -581,6 +581,39 @@ export interface ApiPricePrice extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiRequestRequest extends Struct.CollectionTypeSchema {
+  collectionName: 'requests';
+  info: {
+    displayName: 'Request';
+    pluralName: 'requests';
+    singularName: 'request';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    address: Schema.Attribute.Text;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::request.request'
+    > &
+      Schema.Attribute.Private;
+    phone: Schema.Attribute.String;
+    price: Schema.Attribute.Integer;
+    publishedAt: Schema.Attribute.DateTime;
+    slug: Schema.Attribute.UID<'title'>;
+    surface: Schema.Attribute.String;
+    title: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface ApiReviewReview extends Struct.CollectionTypeSchema {
   collectionName: 'reviews';
   info: {
@@ -1168,6 +1201,7 @@ declare module '@strapi/strapi' {
       'api::faq.faq': ApiFaqFaq;
       'api::home.home': ApiHomeHome;
       'api::price.price': ApiPricePrice;
+      'api::request.request': ApiRequestRequest;
       'api::review.review': ApiReviewReview;
       'api::service.service': ApiServiceService;
       'plugin::content-releases.release': PluginContentReleasesRelease;
