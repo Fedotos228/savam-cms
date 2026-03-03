@@ -29,6 +29,9 @@
     },
     "price": {
       "type": "integer"
+    },
+    "comment": {
+      "type": "text"
     }
   }
 }
